@@ -1,0 +1,10 @@
+# Environment
+.settings
+.project
+
+# Common
+node_modules
+bower_components
+
+# Project
+build

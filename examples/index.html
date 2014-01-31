@@ -1,0 +1,28 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		
+		<title>minChart</title>
+		<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="styles.css">
+
+	</head>
+
+	<body ng-app="minChartExample" ng-controller="AppCtrl">
+	<div id="primary-container" class="container">
+		<section class="panel panel-default">
+			<div class="panel-heading">
+				<span class="panel-header">minChart Demos</span>
+			</div>
+			<div class="panel-body">
+				<mc-pie mc-data="data"></mc-pie>
+			</div>
+		</section>
+	</div>
+	<script src="../bower_components/angular/angular.min.js"></script>
+		<script src="../build/minChart.min.js"></script>
+		<script src="scripts.js"></script>
+	</body>
+</html>

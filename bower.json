@@ -1,0 +1,31 @@
+{
+  "name": "minChart",
+  "version": "0.1.0",
+  "homepage": "https://github.com/bgrawi/minChart",
+  "authors": [
+    "Ben Grawi <onionhouseprod@gmail.com>"
+  ],
+  "description": "A minimalist charting library written in pure Angular",
+  "main": "src/minChart.js",
+  "keywords": [
+    "angularjs",
+    "minChart",
+    "ng"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+	  "angular": ">= 1.2"
+  },
+  "devDependencies": {
+	  "angular": ">= 1.2",
+	  "bootstrap": ">= 3.1"
+  }
+}
